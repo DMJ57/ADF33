@@ -35,7 +35,7 @@ jobs:
       run: |
         # Ensure the correct path to the JSON files
         linkedService1=$(cat ./linkedService/TestLinkedService.json)
-        
+
         # Construct a JSON array with the pipeline contents
         linkedServices=$(jq -n \
           --arg linkedService1 "$linkedService1" \
