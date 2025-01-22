@@ -49,6 +49,6 @@ jobs:
         # Deploy using Bicep (or ARM template)
         az deployment group create \
           --resource-group "komatsu" \
-          --template-file ./bicep/modules/linkedservice.bicep \
+          --template-file ./bicep/linkedservice.bicep \
           --parameters dataFactoryName=ADF033 \
           --parameters linkedServices="$linkedServices"
