@@ -1,4 +1,4 @@
-targetScope = 'resourceGroup'  // Set targetScope to resourceGroup
+targetScope = 'resourceGroup'
 
 param dataFactoryName string
 param linkedServices array
